@@ -138,6 +138,11 @@ color: var(--main-background);
     background-color: #F5F4FA;
     border-radius: 4px;
     color: var(--main-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.875;
+    line-height: 30px;
 }
 
 .features.text {
