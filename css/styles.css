@@ -94,3 +94,15 @@ color: var(--main-background);
 .footer-contacts {
     color: rgba(255, 255, 255, 0.6);
 }
+
+.button.primary {
+background-color: var(--accent-color);
+border-radius: 4px;
+color: var(--main-background);
+}
+
+.button.secondary {
+background-color: #F5F4FA;
+border-radius: 4px;
+color: var(--main-color);
+}
