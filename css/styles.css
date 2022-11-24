@@ -48,6 +48,10 @@ color: var(--main-background);
     color: var(--accent-color);
 }
 
+.link {
+    text-decoration: none;
+}
+
 .contacts-header a{
     color: var(--secondary-color);
     font-family: 'Roboto';
