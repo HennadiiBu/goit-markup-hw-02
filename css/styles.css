@@ -1,6 +1,8 @@
 body {
     background-color: var(--main-background);
     color: var(--main-color);
+    font-family: 'Roboto';
+    font-style: normal;
 }
 
 :root {
@@ -33,6 +35,12 @@ color: var(--main-background);
 
 .site-nav a{
     color: var(--main-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -42,6 +50,12 @@ color: var(--main-background);
 
 .contacts-header a{
     color: var(--secondary-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .contacts .link:hover,
@@ -49,22 +63,41 @@ color: var(--main-background);
     color: var(--accent-color);
 }
 
-.contacts {
+.contacts-footer {
+    color: rgba(255, 255, 255, 0.6);
     color: var(--secondary-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
-
-
 
 .hero {
     background-color: var(--secondary-background);
 }
 
 .hero-title {
-    color: var(--main-background);
+        color: var(--main-background);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
 }
 
 .section-title {
-    color: var(--main-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .hide{
@@ -91,18 +124,24 @@ color: var(--main-background);
     color: var(--main-background);
 }
 
-.footer-contacts {
-    color: rgba(255, 255, 255, 0.6);
-}
-
 .button.primary {
-background-color: var(--accent-color);
-border-radius: 4px;
-color: var(--main-background);
+    background-color: var(--accent-color);
+    border-radius: 4px;
+    color: var(--main-background);
 }
 
 .button.secondary {
-background-color: #F5F4FA;
-border-radius: 4px;
-color: var(--main-color);
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    color: var(--main-color);
+}
+
+.features.text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
