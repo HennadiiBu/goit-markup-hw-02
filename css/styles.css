@@ -1,7 +1,7 @@
 body {
     background-color: var(--main-background);
     color: var(--main-color);
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
 
