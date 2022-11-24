@@ -39,7 +39,7 @@ color: var(--main-background);
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.143;
     letter-spacing: 0.02em;
 }
 
@@ -58,7 +58,7 @@ color: var(--main-background);
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.143;
     letter-spacing: 0.02em;
 }
 
@@ -74,7 +74,7 @@ color: var(--main-background);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.714;
     letter-spacing: 0.03em;
 }
 
@@ -88,7 +88,7 @@ color: var(--main-background);
         font-style: normal;
         font-weight: 900;
         font-size: 44px;
-        line-height: 60px;
+        line-height: 1.363;
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
@@ -99,7 +99,7 @@ color: var(--main-background);
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.666;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -145,7 +145,7 @@ color: var(--main-background);
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.143;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
