@@ -1,0 +1,96 @@
+body {
+    background-color: var(--main-background);
+    color: var(--main-color);
+}
+
+:root {
+--main-color: #212121;
+--secondary-color: #757575;
+--contacts-footer-color: rgba(255, 255, 255, 0.6);
+--accent-color: #2196F3;
+--main-background: #FFFFFF;
+--secondary-background: #2F303A;
+}
+
+.accent {
+    color: var(--accent-color);
+}
+ .list {
+    list-style: none;
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
+
+.logo-dark {
+    color: #000000;
+}
+
+.logo-white {
+color: var(--main-background);
+}
+
+.site-nav a{
+    color: var(--main-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.contacts-header a{
+    color: var(--secondary-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+.contacts {
+    color: var(--secondary-color);
+}
+
+
+
+.hero {
+    background-color: var(--secondary-background);
+}
+
+.hero-title {
+    color: var(--main-background);
+}
+
+.section-title {
+    color: var(--main-color);
+}
+
+.hide{
+    display: none;
+}
+
+.text {
+    color: var(--secondary-color);
+}
+
+.section-features {
+    background-color: #F5F5F5;
+}
+
+.section-team {
+    background-color: #F5F4FA;
+}
+
+.footer {
+    background-color: var(--secondary-background);
+}
+
+.adress {
+    color: var(--main-background);
+}
+
+.footer-contacts {
+    color: rgba(255, 255, 255, 0.6);
+}
