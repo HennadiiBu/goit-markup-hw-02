@@ -15,6 +15,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.site-nav {
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+}
+
 .accent {
     color: var(--accent-color);
 }
@@ -49,24 +57,9 @@ body {
     letter-spacing: 0.03em;
 }
 
-.site-nav a{
-    color: var(--main-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.143;
-    letter-spacing: 0.02em;
-}
-
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);
-}
-
-.site-nav {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.143;
-    letter-spacing: 0.02em;
 }
 
 .link {
@@ -192,4 +185,8 @@ body {
 
 .our-team {
     background-color: var(--main-background);
+}
+
+.current {
+    color: var(--accent-color);
 }
