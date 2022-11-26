@@ -7,7 +7,7 @@
     --secondary-background: #2F303A;
     --logo-dark-color: #000000;
     --button-bkg-color: #F5F4FA;
-    --button-hero-bkg: #2196F3;
+    --button-hero-active: #188CE8;
 }
 
 body {
@@ -75,10 +75,6 @@ body {
 }
 
 .contacts-header:hover, .contacts-header:focus {
-    color: var(--accent-color);
-}
-
-.button:hover, .button:focus {
     color: var(--accent-color);
 }
 
@@ -164,12 +160,6 @@ body {
     color: var(--main-background);
 }
 
-.button.primary:hover,
-.button.primary:focus {
-    background-color: var(--accent-color);
-    color: var(--main-background);
-}
-
 .features.text {
     font-weight: 700;
     font-size: 14px;
@@ -187,8 +177,9 @@ body {
     color: var(--accent-color);
 }
 
-.hero-button {
-    background-color: var(--button-hero-bkg);
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--button-hero-active);
 }
 
 .visually-hidden {
